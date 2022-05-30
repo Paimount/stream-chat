@@ -31,7 +31,7 @@ let oauthState = ''
 app.get('/', login)
 app.get('/callback', callback)
 app.listen(PORT, () => {
-  console.log(`Access to http://localhost:${PORT}/ to redirect Restream login page.`)
+  console.log(`Open http://localhost:${PORT}/ to redirect Restream login page.`)
 })
 
 // Redirect to Restream login form
@@ -91,4 +91,5 @@ async function callback (req, res) {
   res.send('Close this window and continue in the terminal.')
 
   // TODO: Refresh token
+  // TODO: Revoke token
 }
