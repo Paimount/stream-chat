@@ -59,3 +59,6 @@ User_1: Hello!
 User_2: Hi.
 ```
 5. You can check chat texts in your Quest if your phone notification settings worked.
+
+## Attention
+This program is incomplete. Refresh/Revoke access tokens are not implemented. Tokens expire in an hour so this works only an hour at one session.
