@@ -1,5 +1,5 @@
 # restreamchat2ntfy
-Send restream.io chat to ntfy to display chat on the Meta Quest.  
+Send restream.io chat to ntfy to check on the Meta Quest.  
 
 Demo video:  
 [![demo](https://img.youtube.com/vi/A9jHb0oVpBE/0.jpg)](https://www.youtube.com/watch?v=A9jHb0oVpBE)
