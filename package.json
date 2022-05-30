@@ -1,0 +1,27 @@
+{
+  "name": "restreamchat2ntfy",
+  "version": "1.0.0",
+  "description": "RestreamIO のチャットを ntfy に渡すツール",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurohuku7/restreamchat2ntfy.git"
+  },
+  "author": "kurohuku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurohuku7/restreamchat2ntfy/issues"
+  },
+  "homepage": "https://github.com/kurohuku7/restreamchat2ntfy#readme",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "crypto-random-string": "^5.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "simple-oauth2": "^4.3.0",
+    "ws": "^8.7.0"
+  }
+}

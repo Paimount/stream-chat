@@ -1,2 +1,2 @@
 # restreamchat2ntfy
-RestreamIO のチャットを ntfy に渡すツール
+Send restream.io chat to ntfy for check on the Meta Quest.
