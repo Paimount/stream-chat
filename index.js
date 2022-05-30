@@ -4,6 +4,7 @@ import { AuthorizationCode } from 'simple-oauth2'
 import express from 'express'
 import { WebSocket } from 'ws'
 import cryptoRandomString from 'crypto-random-string'
+import fetch from 'node-fetch'
 
 // Load settings
 dotenv.config()
@@ -77,7 +78,6 @@ async function callback (req, res) {
       const text = data.payload.eventPayload.text
 
       // Send chat to ntfy
-      console.log(NTFY_SERVER)
       fetch(NTFY_SERVER, {
         method: 'POST',
         body: `${name}: ${text}`
